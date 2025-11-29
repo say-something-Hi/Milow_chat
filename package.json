@@ -1,0 +1,17 @@
+{
+  "name": "baby-github-api",
+  "version": "1.0.0",
+  "description": "GitHub-based API for Baby Chatbot",
+  "main": "github-api.js",
+  "scripts": {
+    "start": "node github-api.js",
+    "dev": "nodemon github-api.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
